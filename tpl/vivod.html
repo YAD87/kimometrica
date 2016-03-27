@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Title Page</title>
+
+		<!-- Bootstrap CSS -->
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style11.css">
+	
+
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+<div class="panel panel-primary">
+	<div class="panel-heading" style="background-color:#333">
+		<a href="login.php"><h3 class="panel-title">Kinometrika</h3></a>
+
+	</div>
+	<div class="panel-body" style="background-color:#e2e3e4">
+		<span class="badge"><?php echo  $schet2 ?></span>
+		
+<div class="vivod">
+<?php echo '<img class="img-responsive" width=960px height=531px src="'.$slop.'" alt="">'?>
+
+	
+		
+<br>
+<br>
+	
+ 
+  	 <form method="POST">
+   	<?php echo '<button type="submit" class="btn btn-info" name="p1" value="'.$arrow2[0].'">'?>
+    <?php echo $arrow2[0] ?></button>
+    <?php echo '<button type="submit" class="btn btn-info" name="p1" value="'.$arrow2[1].'">'?>
+    <?php echo $arrow2[1] ?></button>
+    <?php echo '<button type="submit" class="btn btn-info" name="p1" value="'.$arrow2[2].'">'?>
+    <?php echo $arrow2[2] ?></button>
+    <?php echo '<button type="submit" class="btn btn-info" name="p1" value="'.$arrow2[3].'">'?>
+    <?php echo $arrow2[3] ?></button>
+  
+    <div><h4>Не знаешь ответ, отправь ссылку на кадр другу</h4><input class="ssilka" type="text" value=http://localhost/c2/<?php echo $slop ?>></div> 
+
+     </form>
+ </div>
+     </div>
+</div>
+
+
+
+
+
+ 
+
+ <div class="modal fade" id="modal-id">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Вы проиграли <?php echo $user['imya'] ?></h4>
+					</div>
+					<div class="modal-body">
+						<p>Вы набрали <?php echo  $schet2 ?> </p>
+					</div>
+					<div class="modal-footer">
+						<form method="post">
+						<a href="login.php"><button type="button"class="btn btn-default" >Выход</button></a>
+						<button  type="submit"  name="raz" class="btn btn-primary">Еще раз</button>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		
+    
+   
+      
+         
+
+		 
+		
+
+		<!-- jQuery -->
+		
+	</body>
+</html>

@@ -1,0 +1,127 @@
+.block {
+	width:200px;
+	height:50px;
+	background:gray;
+	display:inline-block;
+}
+
+a {
+	color:white;
+}
+
+
+body {
+
+	background-color:#3BA3D0;
+	width:100%;
+	height:100%;
+}
+
+
+ .zagol {
+font-size:64px;
+	text-align:center;
+	color:white;
+
+	border-top:350px;
+}
+
+
+.start {
+
+	width:200px;
+	height:70px;
+	font-size:20px;
+	margin-left:40%;
+}
+.vivod {
+	margin: 0 auto;
+	width:900px;
+}
+
+.logpos {
+	margin: 0 auto;
+	width:420px;
+}
+
+@import url('//netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css');
+ .container {
+    margin-top: 30px;
+    width: 400px;
+}
+
+.bar {
+	background-color: #337ab7;
+	 background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+          background-size: 40px 40px;
+           -webkit-animation: progress-bar-stripes 2s linear infinite;
+       -o-animation: progress-bar-stripes 2s linear infinite;
+          animation: progress-bar-stripes 2s linear infinite;
+          color:white;
+}
+
+
+.row21 {
+	margin-left:5px;
+
+}
+
+
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+.onebyone-carosel .active.left { left: -33.33%; }
+.onebyone-carosel .active.right { left: 33.33%; }
+.onebyone-carosel .next { left: 33.33%; }
+.onebyone-carosel .prev { left: -33.33%; }
+
+
+
+.span12 {
+	background-color: #333;
+}
+
+.block43 {
+
+	width:250px;
+	max-height:250px;
+	background-color: white;
+	vertical-align:top;
+	display:inline;
+}
+.fot {
+
+	height:140px;
+	background:#333;
+}
+.soci {
+
+	width:30px;
+	height:30px;
+	color:white;
+	float:left;
+}
+.ft {
+	color:white;
+
+}
+
+li.act:hover {
+
+	background-color:#2A991B;
+}
+
+
+.ssilka {
+	width:300px;
+}
+.reg {
+	
+	
+	
+	margin-right:40px;
+	color:white;
+
+
+}

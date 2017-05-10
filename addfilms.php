@@ -1,7 +1,7 @@
 ﻿<?php
 
 
-$conn =mysqli_connect('localhost', 'root', '', 'kino');
+require 'init.php';
 
 
 

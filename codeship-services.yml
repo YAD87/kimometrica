@@ -1,6 +1,6 @@
 app: 
   build:
-    image: 446984907304.dkr.ecr.us-west-2.amazonaws.com/kino
+    image: 446984907304.dkr.ecr.us-west-2.amazonaws.com/main
     dockerfile_path: Dockerfile
 aws_generator: 
   image: codeship/aws-ecr-dockercfg-generator

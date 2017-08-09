@@ -1,6 +1,5 @@
 - type: push
   service: app
-  tag: webapp
-  registry: https://446984907304.dkr.ecr.us-west-2.amazonaws.com
-  image_name:  446984907304.dkr.ecr.us-west-2.amazonaws.com/main
+  registry: https://446984907304.dkr.ecr.us-west-2.amazonaws.com/main
+  image_name:  webapp/kino
   dockercfg_service: aws_generator

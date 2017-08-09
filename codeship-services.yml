@@ -1,6 +1,7 @@
 app: 
   build:
-    image: 446984907304.dkr.ecr.us-west-2.amazonaws.com/main:kinometr
+    image: 446984907304.dkr.ecr.us-west-2.amazonaws.com/main
+    tag: kinom
     dockerfile_path: Dockerfile
 aws_generator: 
   image: codeship/aws-ecr-dockercfg-generator

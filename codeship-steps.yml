@@ -1,5 +1,5 @@
 - type: push
   service: app
   registry: https://446984907304.dkr.ecr.us-west-2.amazonaws.com
-  image_name:  446984907304.dkr.ecr.us-west-2.amazonaws.com/main/kino
+  image_name:  446984907304.dkr.ecr.us-west-2.amazonaws.com/main
   dockercfg_service: aws_generator
